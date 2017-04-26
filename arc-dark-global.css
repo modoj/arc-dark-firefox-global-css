@@ -16,7 +16,7 @@
 
 @-moz-document url-prefix(http://), url-prefix(ftp://), url-prefix(file://), url-prefix(https://) {
   * {
-    background-color: #222222 !important;
+    background-color: #404552 !important;
     border-color: #363636 !important;
     color: #f1ceca !important;
   }
