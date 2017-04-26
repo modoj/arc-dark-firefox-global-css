@@ -7,7 +7,7 @@
   .main-content,
   * {
     color: #f1ceca !important;;
-    border-color: #363636 !important;
+    border-color: #404552 !important;
     background-color:#404552 !important;;
   }
 }
@@ -17,7 +17,7 @@
 @-moz-document url-prefix(http://), url-prefix(ftp://), url-prefix(file://), url-prefix(https://) {
   * {
     background-color: #404552 !important;
-    border-color: #363636 !important;
+    border-color: #404552 !important;
     color: #f1ceca !important;
   }
   a:link {
@@ -53,7 +53,7 @@
 @-moz-document domain("app.tutanota.de") {
   .selected,
   .selected * {
-    background-color: #2D2D2D !important;
+    background-color: #404552 !important;
   }
 }
 
@@ -62,7 +62,7 @@
   .button,
   .btn *,
   .button * {
-    background-color: #2D2D2D !important;
+    background-color: #404552 !important;
     background-image: none !important;
   }
   .modal-backdrop {
@@ -83,14 +83,14 @@
     background: none !important;
   }
   tr.hl-tr:hover td, tr.hl-tr:hover td * {
-    background-color: #2D2D2D !important;
+    background-color: #404552 !important;
   }
 }
 
 @-moz-document domain("google") { /* FIXME! кнопочки */
   * {
     background-image: none;
-    background-color: #2D2D2D;
+    background-color: #404552;
   }
 }
 
@@ -99,7 +99,7 @@
   .htab > ul > li.selected *,
   .htab > ul > li,
   .htab > ul > li.selected {
-    background-color: #2D2D2D !important;
+    background-color: #404552 !important;
   }
 }
 
@@ -109,7 +109,7 @@ html > body,
     background: none !important;
   }
   .btn {
-    background-color: #2D2D2D !important;
+    background-color: #404552 !important;
     background-image: none !important;
   }
   * {
@@ -135,7 +135,7 @@ html > body,
   }
   #header, #header *,
   .btn { /* FIXME! glitch */
-    background-color: #2D2D2D;
+    background-color: #404552;
     background-image: none;
     background: none;
   }
@@ -154,7 +154,7 @@ html > body,
 @-moz-document domain("habrahabr.ru") {
   .flag {
     color: gray !important;
-    background-color: #2D2D2D !important;
+    background-color: #404552 !important;
     background-image: none !important;
   }
     #navbar_overlay.show {
@@ -165,7 +165,7 @@ html > body,
 @-moz-document domain("localbitcoins.com") {
   tr.clickable:hover td {
     background: none !important;
-    background-color: #2D2D2D !important;
+    background-color: #404552 !important;
   }
 }
 
@@ -181,10 +181,10 @@ html > body,
     background: none !important;
   }
 }
-  
+
 @-moz-document domain("draw.io") {
   .geToolbarContainer {
-    background: #2D2D2D !important;
+    background: #404552 !important;
   }
 }
 
@@ -199,10 +199,10 @@ html > body,
     background: none !important; /* FIXME */
   }
 }
- 
+
 @-moz-document domain("mega.nz") {
   .files-grid-view.fm .grid-scrolling-table, .files-grid-view.fm .grid-scrolling-table .jspPane, .transfer-scrolling-table, .transfer-scrolling-table .jspPane {
     background-image: none !important;
-    background-color: #222222 !important;
+    background-color: #404552 !important;
   }
 }
