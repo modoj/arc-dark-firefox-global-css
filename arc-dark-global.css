@@ -1,6 +1,6 @@
 /*
-* Based on Liqube Night theme and Papirus Dark colors. Some sites can be broken.
-* Use with this skin: https://addons.mozilla.org/en-US/firefox/addon/arc-papirus-dark-theme/
+* Based on droserasprout/papirus-dark-firefox-global-css, using arc dark colors. Some sites can be broken.
+* Use with this skin: https://addons.mozilla.org/en-US/firefox/addon/arc-dark-theme/
 */
 
 @-moz-document url("about:blank"), url("about:newtab"), url("about:preferences"), url("about:performance"), url("about:addons"), url("about:stylish-edit") {
@@ -46,7 +46,7 @@
   .im_dialogs_scrollable_wrap .active *,
   .tg_head_split *,
   .im_dialog_badge.badge.ng-binding {
-    background-color: #353535 !important;
+    background-color: #404552 !important;
   }
 }
 
